@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("ShadowCaster")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("ShadowCasting code from the MSDN Developer Blog of Eric Lippert: https://blogs.msdn.microsoft.com/ericlippert/2011/12/29/shadowcasting-in-c-part-six/")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("N/A")]
 [assembly: AssemblyProduct("ShadowCaster")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]

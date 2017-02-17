@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>ShadowCaster</id>
+    <version>1.0.2.0</version>
+    <authors>Eric Lippert</authors>
+    <owners>Eric Lippert</owners>
+    <licenseUrl>https://github.com/THEjoezack/ShadowCaster/blob/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/THEjoezack/ShadowCaster</projectUrl>
+    <iconUrl>https://nuget.org/Content/Images/packageDefaultIcon-50x50.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>ShadowCasting algorithm, often used for determining field of view in roguelike games</description>
+    <releaseNotes>Initial release.</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>roguelike,rogue-like,shadowcasting,shadow casting,field of view,line of sight,game</tags>
+  </metadata>
+  <files>
+    <file src="bin\Release\ShadowCaster.dll" target="lib" />
+    <file src="bin\Release\ShadowCaster.pdb" target="lib" />
+  </files>
+</package>
