@@ -23,8 +23,8 @@ ShadowCaster.ComputeFieldOfViewWithShadowCasting(
   5, // x position of the object doing the viewing
   6, // x position of the object doing the viewing
   4, // The sight radius, represents how far the position can see
-  (x,y) => return myMap.getCell(x,y).IsWall(), // Func that returns whether the cell can be seen through
-  (x,y) => cellsInFieldOfView.Add(myMap.getCell(x,y)) // Action that specifies what to do with each item that IS in the field of view
+  (x,y) => { return myMap.getCell(x,y).IsWall(); }, // Func that returns whether the cell can be seen through
+  (x,y) => { cellsInFieldOfView.Add(myMap.getCell(x,y)); } // Action that specifies what to do with each item that IS in the field of view
 );
 
 // Note: myMap and Cell objects are just examples of the types of classes you might use
